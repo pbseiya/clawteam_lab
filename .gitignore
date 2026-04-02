@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Secret Keys (IMPORTANT!)
+.secret_key
+.env
+.flaskenv
+
+# Swarm Specific
+claude
+
+# OS specific
+.DS_Store
+Thumbs.db

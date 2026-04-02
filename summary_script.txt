@@ -1,0 +1,12 @@
+clawteam task list qwen-team-tmux
+
+rm -rf ~/.clawteam/teams/qwen-team*
+
+tmux join-pane -s clawteam-qwen-team:1 -t clawteam-qwen-team:0 2>/dev/null; tmux join-pane -s clawteam-qwen-team:2 -t clawteam-qwen-team:0 2>/dev/null; tmux join-pane -s clawteam-qwen-team:3 -t clawteam-qwen-team:0 2>/dev/null; tmux join-pane -s clawteam-qwen-team:4 -t clawteam-qwen-team:0 2>/dev/null; tmux select-layout -t clawteam-qwen-te
+am:0 tiled 2>/dev/null
+
+tmux list-windows -t clawteam-qwen-team ; tmux list-panes -t clawteam-qwen-team
+
+clawteam task list qwen-team
+
+clawteam task update qwen-team 5407d167 --status completed; clawteam task update qwen-team 93f37318 --status completed
