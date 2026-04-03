@@ -8,5 +8,8 @@ am:0 tiled 2>/dev/null
 tmux list-windows -t clawteam-qwen-team ; tmux list-panes -t clawteam-qwen-team
 
 clawteam task list qwen-team
+clawteam task list openclaw-team
+
+clawteam board attach openclaw-team
 
 clawteam task update qwen-team 5407d167 --status completed; clawteam task update qwen-team 93f37318 --status completed
