@@ -19,3 +19,4 @@ claude
 # OS specific
 .DS_Store
 Thumbs.db
+**/app/

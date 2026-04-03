@@ -1,0 +1,3 @@
+# Ignore OpenClaw workspace markdown files
+workspace_meta/*.md
+app/*.md
